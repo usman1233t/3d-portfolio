@@ -81,8 +81,8 @@ const Computers = ({ isMobile }) => {
   if (isMobile) {
     // Don't render the 3D model on mobile
     return null;
-   
   }
+  
   const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
     <mesh>
